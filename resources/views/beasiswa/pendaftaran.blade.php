@@ -92,7 +92,7 @@
                     </div>
                     <div class="d-flex">
                         <button type="submit" class="btn btn-primary me-2 w-50">Daftar</button>
-                        <button onclick="{{ route('pilih') }}" class="btn btn-danger w-50">Batal</button>
+                        <a href="{{ route('pilih') }}" class="btn btn-danger w-50">Batal</a>
                     </div>
                 @endif
             </form>
